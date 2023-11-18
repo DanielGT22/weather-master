@@ -1,0 +1,59 @@
+
+
+.NA {
+    top: 5vw;
+    left: 0%;
+}
+.CA {
+    left: 10vw;
+    top: 20%;
+}
+.SA {
+    left: 15.5%;
+    top: 27.3vw;
+}
+.Europe {
+    left: 38.2%;
+    top: 12.5vw;
+}
+.Africa {
+   
+    left: 36.4%;
+    top: 23.5vw;
+}
+.Asia {
+    left: 50.54%;
+    top: 10.9vw;
+}
+.Oceania {
+    left: 74.8%;
+    top: 36.2vw;
+}
+.Greenland {
+    left: 26%;
+    top: 5.5vw;
+}
+.Africa,
+.Europe,
+.NA,
+.CA,
+.SA,
+.Asia,
+.Oceania, 
+.Greenland{
+  
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.Africa:hover,
+.Europe:hover,
+.NA:hover,
+.CA:hover,
+.SA:hover,
+.Asia:hover,
+.Oceania:hover,
+.Greenland:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
